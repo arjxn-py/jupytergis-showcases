@@ -1,0 +1,78 @@
+{
+  "layerTree": [
+    "d2e6f091-1e7f-4825-aa00-99c9ef2f0a19",
+    "5a6b0723-54a1-4b9e-952c-02ad2110bab7"
+  ],
+  "layers": {
+    "5a6b0723-54a1-4b9e-952c-02ad2110bab7": {
+      "filters": null,
+      "name": "EOxCloudless Sentinel-2",
+      "parameters": {
+        "color": null,
+        "opacity": 0.9,
+        "source": "cc526f7a-8e43-4bbd-a85b-328a290b1a8d",
+        "symbologyState": null
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    },
+    "d2e6f091-1e7f-4825-aa00-99c9ef2f0a19": {
+      "filters": null,
+      "name": "OpenStreetMap",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "cf480821-6882-45f9-8b82-fc972daf8cbc"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      189862.7838578635,
+      5266982.238616431,
+      2259166.013594155,
+      6617165.906245785
+    ],
+    "latitude": 47.0,
+    "longitude": 11.0,
+    "projection": "EPSG:3857",
+    "zoom": 6.0
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "cc526f7a-8e43-4bbd-a85b-328a290b1a8d": {
+      "name": "EOxCloudless Sentinel-2 Source",
+      "parameters": {
+        "interpolate": null,
+        "normalize": true,
+        "urls": [
+          {
+            "max": 1000.0,
+            "min": 0.0,
+            "url": "https://s2downloads.eox.at/demo/EOxCloudless/2020/rgbnir/s2cloudless2020-16bits_sinlge-file_z0-4.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    },
+    "cf480821-6882-45f9-8b82-fc972daf8cbc": {
+      "name": "OpenStreetMap Source",
+      "parameters": {
+        "attribution": "",
+        "bounds": [],
+        "htmlAttribution": "",
+        "interpolate": null,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    }
+  }
+}
