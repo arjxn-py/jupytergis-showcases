@@ -1,0 +1,129 @@
+{
+  "layerTree": [
+    "87cc45da-a020-46d6-bdc6-387aa6274759",
+    "92284cfa-6d8d-4d03-bdab-3444d4e726ed"
+  ],
+  "layers": {
+    "87cc45da-a020-46d6-bdc6-387aa6274759": {
+      "filters": null,
+      "name": "OpenStreetMap",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "ee97850c-2468-4c35-8166-094954a8a3c4"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "92284cfa-6d8d-4d03-bdab-3444d4e726ed": {
+      "filters": null,
+      "name": "ECOSTRESS Land Surface Temperature",
+      "parameters": {
+        "color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "band",
+            1.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            4.0,
+            1.0
+          ],
+          0.25,
+          [
+            87.0,
+            16.0,
+            110.0,
+            1.0
+          ],
+          0.5,
+          [
+            188.0,
+            55.0,
+            84.0,
+            1.0
+          ],
+          0.75,
+          [
+            249.0,
+            142.0,
+            9.0,
+            1.0
+          ],
+          1.0,
+          [
+            252.0,
+            255.0,
+            164.0,
+            1.0
+          ]
+        ],
+        "opacity": 0.7,
+        "source": "e970ded0-12a2-421b-aef7-3489b0a9250c",
+        "symbologyState": null
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -1004919.3094658405,
+      4673888.45174443,
+      4121865.051677501,
+      7374255.787003135
+    ],
+    "latitude": 47.5,
+    "longitude": 14.000000000000002,
+    "projection": "EPSG:3857",
+    "zoom": 5.0
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "e970ded0-12a2-421b-aef7-3489b0a9250c": {
+      "name": "ECOSTRESS Land Surface Temperature Source",
+      "parameters": {
+        "interpolate": null,
+        "normalize": true,
+        "urls": [
+          {
+            "max": 40.0,
+            "min": 0.0,
+            "url": "https://eoresults.esa.int/d/ECOSTRESS_LST/2024/06/01/ECOSTRESS_MEAN_LST_2024/2024_LST_AT_merged_composite_mean_70m.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    },
+    "ee97850c-2468-4c35-8166-094954a8a3c4": {
+      "name": "OpenStreetMap Source",
+      "parameters": {
+        "attribution": "\u00a9 OpenStreetMap contributors",
+        "bounds": [],
+        "htmlAttribution": "\u00a9 OpenStreetMap contributors",
+        "interpolate": null,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    }
+  }
+}
