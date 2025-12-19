@@ -1,7 +1,8 @@
 {
   "layerTree": [
     "29afd42b-c5ab-467f-ae0c-5afdd77910ab",
-    "7fd2578a-b502-4887-92c8-e498650a4ec7"
+    "7fd2578a-b502-4887-92c8-e498650a4ec7",
+    "e8f86728-b11e-4663-97c3-78355fb6d004"
   ],
   "layers": {
     "29afd42b-c5ab-467f-ae0c-5afdd77910ab": {
@@ -24,6 +25,27 @@
         "symbologyState": null
       },
       "type": "WebGlLayer",
+      "visible": true
+    },
+    "e8f86728-b11e-4663-97c3-78355fb6d004": {
+      "filters": {
+        "appliedFilters": [
+          {
+            "feature": null,
+            "operator": null,
+            "value": null
+          }
+        ],
+        "logicalOp": null
+      },
+      "name": "Training Labels",
+      "parameters": {
+        "color": null,
+        "opacity": 1.0,
+        "source": "c58a4833-8e44-4d32-9e06-b8227681c1e0",
+        "symbologyState": null
+      },
+      "type": "VectorLayer",
       "visible": true
     }
   },
@@ -89,15 +111,15 @@
   "options": {
     "bearing": 0.0,
     "extent": [
-      780126.2150407323,
-      5627164.143287036,
-      1321348.4740346079,
-      6117945.033054781
+      -1293775.6212040184,
+      5503398.007142908,
+      5447198.254920526,
+      9839622.1893179
     ],
-    "latitude": 46.57239105965067,
-    "longitude": 9.438934161933485,
+    "latitude": 56.563944647461625,
+    "longitude": 18.65541516637748,
     "projection": "EPSG:3857",
-    "zoom": 7.843333333333326
+    "zoom": 4.613333333333319
   },
   "schemaVersion": "0.5.0",
   "sources": {
@@ -115,6 +137,72 @@
         "urlParameters": {}
       },
       "type": "RasterSource"
+    },
+    "c58a4833-8e44-4d32-9e06-b8227681c1e0": {
+      "name": "Training Labels Source",
+      "parameters": {
+        "data": {
+          "bbox": null,
+          "features": [
+            {
+              "bbox": null,
+              "geometry": {
+                "bbox": null,
+                "coordinates": [
+                  9.438934161933483,
+                  46.82227040242663
+                ],
+                "type": "Point"
+              },
+              "id": null,
+              "properties": {
+                "contributors": [
+                  "Anonymous Isonoe"
+                ],
+                "id": "annotation_3ee49d07-5955-4020-9b09-1c097f86ced4",
+                "labels": [
+                  "grass"
+                ],
+                "num_contributors": 1.0,
+                "primary_label": "grass",
+                "zoom_level": 7.843333333333326
+              },
+              "type": "Feature"
+            },
+            {
+              "bbox": null,
+              "geometry": {
+                "bbox": null,
+                "coordinates": [
+                  8.762359844833462,
+                  47.05430905698838
+                ],
+                "type": "Point"
+              },
+              "id": null,
+              "properties": {
+                "contributors": [
+                  "Anonymous Megaclite",
+                  "Anonymous Isonoe"
+                ],
+                "id": "annotation_58ca970b-3d84-44cb-86be-0dcb8d8b7eb0",
+                "labels": [
+                  "shrubs",
+                  "grass"
+                ],
+                "num_contributors": 2.0,
+                "primary_label": "shrubs",
+                "zoom_level": 7.843333333333326
+              },
+              "type": "Feature"
+            }
+          ],
+          "type": "FeatureCollection"
+        },
+        "path": null,
+        "valid": null
+      },
+      "type": "GeoJSONSource"
     },
     "d488bf96-91e7-40a2-8d63-cedb40472300": {
       "name": "Sentinel-2 Cloudless (2020) Source",
