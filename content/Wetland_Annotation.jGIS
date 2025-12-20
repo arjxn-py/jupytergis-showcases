@@ -1,0 +1,239 @@
+{
+  "layerTree": [
+    "00236707-b7c8-4041-b08d-e7ee84728592",
+    "e1765df5-ec4f-478f-be45-a8fa6bfe7e0a",
+    "241d177e-a237-4625-be58-a2b7d805360a",
+    "5a3f9912-e865-48d1-b361-b4d67297fe5b"
+  ],
+  "layers": {
+    "00236707-b7c8-4041-b08d-e7ee84728592": {
+      "filters": null,
+      "name": "OpenStreetMap",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "50d3d2ed-33d5-4926-aef8-b4e8136d370d"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "241d177e-a237-4625-be58-a2b7d805360a": {
+      "filters": null,
+      "name": "Sentinel-2 RGB (EOPF)",
+      "parameters": {
+        "color": null,
+        "opacity": 1.0,
+        "source": "7013ddfa-2aa5-450a-8e01-929fb4a19e39",
+        "symbologyState": null
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    },
+    "5a3f9912-e865-48d1-b361-b4d67297fe5b": {
+      "filters": null,
+      "name": "Wetland Classification v1",
+      "parameters": {
+        "color": [
+          "interpolate",
+          [
+            "linear"
+          ],
+          [
+            "band",
+            1.0
+          ],
+          0.0,
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          0.0,
+          [
+            0.0,
+            100.0,
+            255.0,
+            1.0
+          ],
+          1.0,
+          [
+            194.0,
+            178.0,
+            128.0,
+            1.0
+          ],
+          2.0,
+          [
+            144.0,
+            238.0,
+            144.0,
+            1.0
+          ],
+          3.0,
+          [
+            128.0,
+            128.0,
+            128.0,
+            1.0
+          ],
+          4.0,
+          [
+            173.0,
+            255.0,
+            47.0,
+            1.0
+          ],
+          5.0,
+          [
+            0.0,
+            100.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "opacity": 1.0,
+        "source": "3a236e10-c53a-40be-9e60-264d067aec23",
+        "symbologyState": null
+      },
+      "type": "WebGlLayer",
+      "visible": true
+    },
+    "e1765df5-ec4f-478f-be45-a8fa6bfe7e0a": {
+      "filters": null,
+      "name": "Satellite (ESRI)",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "2b18c94a-4fd4-46a6-9c89-caaca37b87e5"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    }
+  },
+  "metadata": {
+    "annotation_4381c454-be9b-48ff-a7df-2a747b2dbd8f": {
+      "contents": [
+        {
+          "user": {
+            "avatar_url": null,
+            "color": "var(--jp-collaborator-color3)",
+            "display_name": "Expert Reviewer",
+            "initials": "ER",
+            "name": "Expert Reviewer",
+            "username": "expert_review"
+          },
+          "value": "wet_meadow"
+        }
+      ],
+      "label": "Seasonal flooding",
+      "open": true,
+      "parent": "",
+      "position": {
+        "x": 561272.8725015555,
+        "y": 6665813.388584382
+      },
+      "zoom": 17.0
+    },
+    "annotation_a0c5aaee-986a-42b0-809c-81ed485076c6": {
+      "contents": [
+        {
+          "user": {
+            "avatar_url": null,
+            "color": "var(--jp-collaborator-color3)",
+            "display_name": "Expert Reviewer",
+            "initials": "ER",
+            "name": "Expert Reviewer",
+            "username": "expert_review"
+          },
+          "value": "open_water"
+        }
+      ],
+      "label": "Misclassified pond",
+      "open": true,
+      "parent": "",
+      "position": {
+        "x": 561495.5114831111,
+        "y": 6666169.100864272
+      },
+      "zoom": 17.0
+    }
+  },
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      561236.9906373317,
+      6666107.616093834,
+      562482.3872468744,
+      6666621.704229168
+    ],
+    "latitude": 51.254099494109255,
+    "longitude": 5.047271461073312,
+    "projection": "EPSG:3857",
+    "zoom": 17.56999999999999
+  },
+  "schemaVersion": "0.5.0",
+  "sources": {
+    "2b18c94a-4fd4-46a6-9c89-caaca37b87e5": {
+      "name": "Satellite (ESRI) Source",
+      "parameters": {
+        "attribution": "",
+        "bounds": [],
+        "htmlAttribution": "",
+        "interpolate": null,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    },
+    "3a236e10-c53a-40be-9e60-264d067aec23": {
+      "name": "Wetland Classification v1 Source",
+      "parameters": {
+        "interpolate": null,
+        "normalize": false,
+        "urls": [
+          {
+            "max": null,
+            "min": null,
+            "url": "https://raw.githubusercontent.com/annefou/jupytergis-showcases/refs/heads/main/content/wetland_outputs/wetland_prediction_v1.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    },
+    "50d3d2ed-33d5-4926-aef8-b4e8136d370d": {
+      "name": "OpenStreetMap Source",
+      "parameters": {
+        "attribution": "",
+        "bounds": [],
+        "htmlAttribution": "",
+        "interpolate": null,
+        "maxZoom": 24.0,
+        "minZoom": 0.0,
+        "provider": "",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "urlParameters": {}
+      },
+      "type": "RasterSource"
+    },
+    "7013ddfa-2aa5-450a-8e01-929fb4a19e39": {
+      "name": "Sentinel-2 RGB (EOPF) Source",
+      "parameters": {
+        "interpolate": null,
+        "normalize": true,
+        "urls": [
+          {
+            "max": 255.0,
+            "min": 0.0,
+            "url": "https://raw.githubusercontent.com/annefou/jupytergis-showcases/refs/heads/main/content/wetland_outputs/sentinel2_rgb.tif"
+          }
+        ],
+        "wrapX": false
+      },
+      "type": "GeoTiffSource"
+    }
+  },
+  "stories": {}
+}

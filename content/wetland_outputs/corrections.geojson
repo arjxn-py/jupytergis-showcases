@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          641063.4919092562,
-          5676232.792351556
+          642622.9807376696,
+          5679964.151236678
         ]
       },
       "properties": {
         "id": 0,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
         "new_class": 1,
         "new_class_name": "Open Water"
       }
@@ -23,12 +23,114 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          645062.1812128803,
-          5683015.262389392
+          642632.9774609286,
+          5679964.151236678
         ]
       },
       "properties": {
         "id": 1,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642642.9741841877,
+          5679964.151236678
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642652.9709074468,
+          5679964.151236678
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642662.9676307058,
+          5679964.151236678
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642622.9807376696,
+          5679954.147593554
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642632.9774609286,
+          5679954.147593554
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642642.9741841877,
+          5679954.147593554
+        ]
+      },
+      "properties": {
+        "id": 7,
         "old_class": 3,
         "old_class_name": "Wet Meadow",
         "new_class": 1,
@@ -40,16 +142,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          642403.0528259702,
-          5678493.615697501
+          642652.9709074468,
+          5679954.147593554
         ]
       },
       "properties": {
-        "id": 2,
+        "id": 8,
         "old_class": 3,
         "old_class_name": "Wet Meadow",
-        "new_class": 2,
-        "new_class_name": "Emergent Vegetation"
+        "new_class": 1,
+        "new_class_name": "Open Water"
       }
     },
     {
@@ -57,16 +159,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          643732.6170194253,
-          5680754.439043446
+          642662.9676307058,
+          5679954.147593554
         ]
       },
       "properties": {
-        "id": 3,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 2,
-        "new_class_name": "Emergent Vegetation"
+        "id": 9,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
       }
     },
     {
@@ -74,16 +176,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          641613.3116885045,
-          5681804.82157143
+          642622.9807376696,
+          5679944.143950431
         ]
       },
       "properties": {
-        "id": 4,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 2,
-        "new_class_name": "Emergent Vegetation"
+        "id": 10,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
       }
     },
     {
@@ -91,12 +193,267 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          644522.3581568911,
-          5677433.229526394
+          642632.9774609286,
+          5679944.143950431
         ]
       },
       "properties": {
-        "id": 5,
+        "id": 11,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642642.9741841877,
+          5679944.143950431
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642652.9709074468,
+          5679944.143950431
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642662.9676307058,
+          5679944.143950431
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642622.9807376696,
+          5679934.140307307
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642632.9774609286,
+          5679934.140307307
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642642.9741841877,
+          5679934.140307307
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642652.9709074468,
+          5679934.140307307
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642662.9676307058,
+          5679934.140307307
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642622.9807376696,
+          5679924.136664184
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642632.9774609286,
+          5679924.136664184
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "old_class": 3,
+        "old_class_name": "Wet Meadow",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642642.9741841877,
+          5679924.136664184
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642652.9709074468,
+          5679924.136664184
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642662.9676307058,
+          5679924.136664184
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 1,
+        "new_class_name": "Open Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642483.0266120428,
+          5679734.067444834
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642493.0233353018,
+          5679734.067444834
+        ]
+      },
+      "properties": {
+        "id": 26,
         "old_class": 5,
         "old_class_name": "Bare/Mudflat",
         "new_class": 3,
@@ -108,16 +465,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          645861.9190736052,
-          5679704.056515463
+          642503.0200585609,
+          5679734.067444834
         ]
       },
       "properties": {
-        "id": 6,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 4,
-        "new_class_name": "Flooded Forest"
+        "id": 27,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
       }
     },
     {
@@ -125,16 +482,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          640243.7606020132,
-          5680654.40261221
+          642483.0266120428,
+          5679724.0638017105
         ]
       },
       "properties": {
-        "id": 7,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 4,
-        "new_class_name": "Flooded Forest"
+        "id": 28,
+        "old_class": 5,
+        "old_class_name": "Bare/Mudflat",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
       }
     },
     {
@@ -143,15 +500,15 @@
         "type": "Point",
         "coordinates": [
           642493.0233353018,
-          5675152.398894202
+          5679724.0638017105
         ]
       },
       "properties": {
-        "id": 8,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 5,
-        "new_class_name": "Bare/Mudflat"
+        "id": 29,
+        "old_class": 5,
+        "old_class_name": "Bare/Mudflat",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
       }
     },
     {
@@ -159,16 +516,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          645252.1189548025,
-          5676342.832425917
+          642503.0200585609,
+          5679724.0638017105
         ]
       },
       "properties": {
-        "id": 9,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 0,
-        "new_class_name": "Other/Upland"
+        "id": 30,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
       }
     },
     {
@@ -176,16 +533,135 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          640853.5607208159,
-          5684015.626701756
+          642483.0266120428,
+          5679714.060158587
         ]
       },
       "properties": {
-        "id": 10,
-        "old_class": 3,
-        "old_class_name": "Wet Meadow",
-        "new_class": 0,
-        "new_class_name": "Other/Upland"
+        "id": 31,
+        "old_class": 5,
+        "old_class_name": "Bare/Mudflat",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642493.0233353018,
+          5679714.060158587
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "old_class": 5,
+        "old_class_name": "Bare/Mudflat",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642503.0200585609,
+          5679714.060158587
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642483.0266120428,
+          5679704.056515463
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "old_class": 5,
+        "old_class_name": "Bare/Mudflat",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642493.0233353018,
+          5679704.056515463
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642503.0200585609,
+          5679704.056515463
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642483.0266120428,
+          5679694.052872339
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "old_class": 0,
+        "old_class_name": "Other/Upland",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          642493.0233353018,
+          5679694.052872339
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "old_class": 2,
+        "old_class_name": "Emergent Vegetation",
+        "new_class": 3,
+        "new_class_name": "Wet Meadow"
       }
     }
   ]
