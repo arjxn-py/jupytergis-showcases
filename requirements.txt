@@ -17,6 +17,7 @@ xarray
 geopandas
 numpy
 pandas
+dask
 matplotlib
 
 # Visualization libraries
