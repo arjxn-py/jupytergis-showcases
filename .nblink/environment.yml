@@ -4,7 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - jupytergis-lite
+  - jupytergis-lite<0.13.3
   - xeus-javascript
   
   # python dependencies
