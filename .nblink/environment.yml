@@ -1,10 +1,10 @@
-name: jgis-showcases
+name: default-environment
 channels:
   - emscripten-forge
   - conda-forge
 dependencies:
   - xeus-python
-  - jupytergis-lite<0.13.3
+  - jupytergis-lite
   - xeus-javascript
   
   # python dependencies
