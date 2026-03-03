@@ -1,32 +1,7 @@
-name: default-environment
+name: gis-nblink-environment
 channels:
   - emscripten-forge
   - conda-forge
 dependencies:
   - xeus-python
   - jupytergis-lite
-  - xeus-javascript
-  
-  # python dependencies
-  - matplotlib
-  - pandas
-  - numpy
-  - geopandas
-  - xarray
-  - contextily
-  # - sentinelhub
-  - shapely
-  - rasterio
-  - Pillow
-  - pyproj
-  # - dask
-  # - pystac_client
-  # - pyodide_kernel
-  # - xcube
-  - rioxarray
-  # - distributed
-  - folium
-  - s3fs
-  - cartopy
-  - scipy
-  # - sklearn
