@@ -3,7 +3,7 @@
   "platform": "emscripten-wasm32",
   "specs": [
     "xeus-python",
-    "jupytergis-lite"
+    "jupytergis-lite==0.13.2"
   ],
   "channels": [
     "emscripten-forge",
@@ -32,6 +32,66 @@
     ]
   },
   "packages": {
+    "jupytergis-lite-0.13.2-pyhd8ed1ab_0.conda": {
+      "name": "jupytergis-lite",
+      "build": "pyhd8ed1ab_0",
+      "version": "0.13.2",
+      "subdir": "noarch",
+      "channel": "conda-forge",
+      "hash": {
+        "md5": "21d1e61d062447c56235408651381084",
+        "sha256": "51f6d82878b3e27fd93e47c38c167ff4b490cf5dc564398e6a87d50bcabcc5d4"
+      },
+      "size": 10467
+    },
+    "my-jupyter-shared-drive-0.2.2-pyhd8ed1ab_0.conda": {
+      "name": "my-jupyter-shared-drive",
+      "build": "pyhd8ed1ab_0",
+      "version": "0.2.2",
+      "subdir": "noarch",
+      "channel": "conda-forge",
+      "hash": {
+        "md5": "ee6c592b4c1841fbff10ec5b3904eadf",
+        "sha256": "dd6b27d432a2b6992ce6a1683e469b4d106b3b685735def02f4571ba9d1d06d8"
+      },
+      "size": 19253
+    },
+    "jupytergis-core-0.13.2-pyhd8ed1ab_0.conda": {
+      "name": "jupytergis-core",
+      "build": "pyhd8ed1ab_0",
+      "version": "0.13.2",
+      "subdir": "noarch",
+      "channel": "conda-forge",
+      "hash": {
+        "md5": "993362f9078ce44652546f2800ea805c",
+        "sha256": "7680c00655f6fee503c5217cf4a49d2d01b2f0c031b5beaa56ffa4c039c67893"
+      },
+      "size": 13335706
+    },
+    "jupytergis-lab-0.13.2-pyhd8ed1ab_0.conda": {
+      "name": "jupytergis-lab",
+      "build": "pyhd8ed1ab_0",
+      "version": "0.13.2",
+      "subdir": "noarch",
+      "channel": "conda-forge",
+      "hash": {
+        "md5": "68b033e085f8525dc4c7689701b57fc3",
+        "sha256": "8a871893b22845461a183050970fbb3abb43df962c926d81411d4cceb22cbab1"
+      },
+      "size": 45091
+    },
+    "yjs-widgets-0.4.0-pyhd8ed1ab_0.conda": {
+      "name": "yjs-widgets",
+      "build": "pyhd8ed1ab_0",
+      "version": "0.4.0",
+      "subdir": "noarch",
+      "channel": "conda-forge",
+      "hash": {
+        "md5": "879c55bca00674dadb16376818c1cb33",
+        "sha256": "398a3fc17dbeb999cce55e0557134d046c51eed9997b2475953985e9426e721f"
+      },
+      "size": 22051
+    },
     "xeus-python-0.17.8-py313h027658c_0.tar.bz2": {
       "name": "xeus-python",
       "build": "py313h027658c_0",
@@ -55,66 +115,6 @@
         "sha256": "5abdb3001515f446a14eca10df69ae0a02a479d68dfd8c27bc88c6c1a270bfda"
       },
       "size": 379298
-    },
-    "jupytergis-lite-0.13.3-pyhd8ed1ab_0.conda": {
-      "name": "jupytergis-lite",
-      "build": "pyhd8ed1ab_0",
-      "version": "0.13.3",
-      "subdir": "noarch",
-      "channel": "conda-forge",
-      "hash": {
-        "md5": "bd9aa09592dbf1e51b8b40549031e1e5",
-        "sha256": "e859225469705e3637b7e22f84d15596d095f4d8b3707b44a50d14f4722cc903"
-      },
-      "size": 10440
-    },
-    "my-jupyter-shared-drive-0.2.2-pyhd8ed1ab_0.conda": {
-      "name": "my-jupyter-shared-drive",
-      "build": "pyhd8ed1ab_0",
-      "version": "0.2.2",
-      "subdir": "noarch",
-      "channel": "conda-forge",
-      "hash": {
-        "md5": "ee6c592b4c1841fbff10ec5b3904eadf",
-        "sha256": "dd6b27d432a2b6992ce6a1683e469b4d106b3b685735def02f4571ba9d1d06d8"
-      },
-      "size": 19253
-    },
-    "jupytergis-lab-0.13.3-pyhd8ed1ab_0.conda": {
-      "name": "jupytergis-lab",
-      "build": "pyhd8ed1ab_0",
-      "version": "0.13.3",
-      "subdir": "noarch",
-      "channel": "conda-forge",
-      "hash": {
-        "md5": "dc8fe26df537dc44f30c47966bc6bfaf",
-        "sha256": "357803655cf8a848648f5bbca6395a1cf89aae79440173cc611c1b00d05a6c83"
-      },
-      "size": 44963
-    },
-    "jupytergis-core-0.13.3-pyhd8ed1ab_0.conda": {
-      "name": "jupytergis-core",
-      "build": "pyhd8ed1ab_0",
-      "version": "0.13.3",
-      "subdir": "noarch",
-      "channel": "conda-forge",
-      "hash": {
-        "md5": "8f57bd9bc6cd4b9b8cb7fdcb69bd86ae",
-        "sha256": "cc51d6fd749e6605a2f3218e622ce85fd138480ab8fa137c12392048ebaae65d"
-      },
-      "size": 13280900
-    },
-    "yjs-widgets-0.4.0-pyhd8ed1ab_0.conda": {
-      "name": "yjs-widgets",
-      "build": "pyhd8ed1ab_0",
-      "version": "0.4.0",
-      "subdir": "noarch",
-      "channel": "conda-forge",
-      "hash": {
-        "md5": "879c55bca00674dadb16376818c1cb33",
-        "sha256": "398a3fc17dbeb999cce55e0557134d046c51eed9997b2475953985e9426e721f"
-      },
-      "size": 22051
     },
     "python-3.13.1-h_c8de616_6_cp313.tar.bz2": {
       "name": "python",
@@ -726,5 +726,5 @@
     }
   },
   "pipPackages": {},
-  "id": "2201960183087520"
+  "id": "288429632564912"
 }
